@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	window.onload = function(){
+		var btn = document.getElementsByTagName('input');
+		for(let i = 0;i<btn.length;i++){
+			btn[i].onclick = function(){
+				alert(i);
+			}
+		}
+	}
+</script>
+<body>
+	<input type="button" value="按钮1">
+	<input type="button" value="按钮2">
+	<input type="button" value="按钮3">
+</body>
+</html>
